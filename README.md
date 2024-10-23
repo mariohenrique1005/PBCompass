@@ -1,7 +1,7 @@
 ## Apresentação
 
 Olá, eu sou Mario Henrique Martins da Silva
-(Sprint01/Desafio1/Foto.jpg)
+[Foto](Sprint01/Desafio1/Foto.jpg)
 Estudo na UNIVESP e atualmente estou no 3º Semestre de Ciência de dados
 
 Obtive alguma experiência na área de tecnologia como técnico de informática autônomo, configurando redes, fazendo configurações de sistemas operacionais (formatação, instalação, etc)
