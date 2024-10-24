@@ -35,10 +35,10 @@ Erro no zip: [Evidencia 5](../evidencias/Erro_zip.png)
 [Evidencia 6](../evidencias/Erro_prim_teste.png)
 | [Evidencia 7](../evidencias/Erros_prim_teste2.png)
 
-3. Houve um erro ao adicionar conteúdo no arquivo txt, pois havia um erro no script que estava tentando copiar conteúdo do arquivo compactado, no lugar de copiar dados do arquivo csv
+3. Houve um erro ao adicionar conteúdo no arquivo txt, pois havia um erro no script que estava tentando copiar conteúdo do arquivo compactado, no lugar de copiar dados do arquivo csv:
 [Evidencia 8](../evidencias/Erro_txt.png)
 
-4. Erro no script, não estava conseguindo agendar execução do script, pois o cron estava no local errado e o caminho para criar o arquivo txt não estava preciso, conforme as exigências do cron
+4. Erro no script, não estava conseguindo agendar execução do script, pois o cron estava no local errado e o caminho para criar o arquivo txt não estava preciso, conforme as exigências do cron:
 [Evidencia 9](../evidencias/Erro_cron_txt.png)
 
 5. Para poder executar o script conforme consta no desafio seria impossível, devido à falta de tempo restante, então, o cron foi programado para executar 4 vezes, sendo na quinta-feira e na sexta-feira às 14:00 e 15:00 (2 vezes ao dia)
