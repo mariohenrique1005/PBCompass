@@ -14,7 +14,7 @@ Criando a pasta ecommerce e Copiando o arquivo csv
 
 Testando comandos no terminal Linux
 [Evidencia 2](evidencias/Teste_comandos.png)
-|[Evidencia 3](evidencias/Teste_comandos2.png)
+| [Evidencia 3](evidencias/Teste_comandos2.png)
 
 Testando comandos para adicionar ao arquivo txt
 [Evidencia 4](evidencias/Teste_comandos_txt.png)
@@ -24,7 +24,7 @@ Erro ao tentar zipar um arquivo
 
 Erros ao executar pela primeira vez o script
 [Evidencia 6](evidencias/Erro_prim_teste.png)
-|[Evidencia 7](evidencias/Erros_prim_teste2.png)
+| [Evidencia 7](evidencias/Erros_prim_teste2.png)
 
 Erro ao adicionar conteúdo no arquivo txt
 [Evidencia 8](evidencias/Erro_txt.png)
