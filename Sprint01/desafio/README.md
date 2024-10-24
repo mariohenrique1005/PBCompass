@@ -25,3 +25,20 @@ Para realizar a codificação, foram feitas partes do código no notepad(ambient
 
 8. Descrição do script consolidador_de_processamento_de_vendas.sh:
 [Consolidador_de_Processamento_de_vendas.sh](../evidencias/Consolidador_de_processamento_de_vendas.txt)
+
+## Erros e problemas
+
+1. Ao tentar comprimir um arquivo para .zip houve um erro no terminal, mesmo após instalação e atualização dos pacotes, portanto, foi utilizado o gzip para a compactação dos arquivos:
+Erro no zip: [Evidencia 5](../evidencias/Erro_zip.png)
+
+2. Ocorreram alguns erros ao executar o script pela segunda vez, relacionados à criação de pastas - que já existiam e outros erros relacionados à criação de pastas com caracteres indesejados, pois foi testado a criação de um script diretamente no bloco de notas, dentro do ambiente windows, o que acabou por ser um método equivocado na criação do script:
+[Evidencia 6](../evidencias/Erro_prim_teste.png)
+| [Evidencia 7](../evidencias/Erros_prim_teste2.png)
+
+3. Houve um erro ao adicionar conteúdo no arquivo txt, pois havia um erro no script que estava tentando copiar conteúdo do arquivo compactado, no lugar de copiar dados do arquivo csv
+[Evidencia 8](../evidencias/Erro_txt.png)
+
+4. Erro no script, não estava conseguindo agendar execução do script, pois o cron estava no local errado e o caminho para criar o arquivo txt não estava preciso, conforme as exigências do cron
+[Evidencia 9](../evidencias/Erro_cron_txt.png)
+
+5. Para poder executar o script conforme consta no desafio seria impossível, devido à falta de tempo restante, então, o cron foi programado para executar 4 vezes, sendo na quinta-feira e na sexta-feira às 14:00 e 15:00 (2 vezes ao dia)
