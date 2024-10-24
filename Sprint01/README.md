@@ -9,8 +9,17 @@ Nesta Sprint foi realizado o desafio de criar um script no ambiente Linux para e
 
 # Evidências
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
-[Evidencia 1](evidencias/sample.webp)
+Criando a pasta ecommerce e Copiando o arquivo csv
+[Evidencia 1](evidencias/Copiando_csv.png)
+
+Testando comandos no terminal Linux
+[Evidencia 2](evidencias/Teste_comandos.png)
+[Evidencia 3](evidencias/Teste_comandos2.png)
+
+Testando comandos para adicionar ao arquivo txt
+[Evidencia 4](evidencias/Teste_comandos_txt.png)
+
+
 
 # Apresentação do desafio
 [Desafio](desafio/README.md)
