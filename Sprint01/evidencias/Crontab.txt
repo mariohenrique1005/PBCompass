@@ -1,0 +1,5 @@
+1- Executa o script as quintas e sexta-feiras as 14:00
+00 14 * * 4,5 /home/mario/ecommerce/processamento_de_vendas.sh
+
+2- Executa o script as quintas e sexta-feiras as 15:00
+00 15 * * 4,5 /home/mario/ecommerce/processamento_de_vendas.sh

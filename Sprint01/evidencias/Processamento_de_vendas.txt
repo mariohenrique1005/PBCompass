@@ -1,0 +1,53 @@
+1-Cria pasta vendas em ecommerce e verifica se ela já existe para não causar erro na criação
+if [ ! -d "/home/mario/ecommerce/vendas" ]; then   mkdir -p "/home/mario/ecommerce/vendas"; fi
+
+2-Copia o arquivo dados_de_vendas.csv para a pasta vendas
+cp -u /home/mario/ecommerce/dados_de_vendas.csv /home/mario/ecommerce/vendas
+
+3-Muda para o diretório vendas
+cd vendas
+
+4-Se ainda não existir, cria a pasta backup
+if [ ! -d "/home/mario/ecommerce/vendas/backup" ]; then   mkdir -p "/home/mario/ecommerce/vendas/backup"; fi
+
+5-Copia o arquivo dados_de_vendas.csv para a pasta backup
+cp -u /home/mario/ecommerce/dados_de_vendas.csv /home/mario/ecommerce/vendas/backup
+
+6-Muda para a pasta backup
+cd backup
+
+7-Renomeia o arquivo dados_de_vendas.csv para o mesmo nome com a inclusão da data
+mv /home/mario/ecommerce/vendas/dados_de_vendas.csv /home/mario/ecommerce/vendas/dados_de_vendas-$(date +%Y%m%d).csv
+
+8-Renomeia o arquivo dados_de_vendas.csv com a inclusão da data para relatorio com data e hora, além de armazenar em uma variável
+mv /home/mario/ecommerce/vendas/backup/dados_de_vendas* /home/mario/ecommerce/vendas/backup/backup-dados-$(date +%Y%m%d>OUTPUT_FILE="/home/mario/ecommerce/vendas/backup/relatorio_$(date +"%Y%m%d_%H%M%S").txt"
+
+9-Cria o txt com arquivo que está na variável
+touch "$OUTPUT_FILE"
+
+10-Coloca a data e hora no arquivo txt
+date +"%Y/%m/%d %H:%M" > "$OUTPUT_FILE"
+
+11-Copia a segunda linha do csv para o arquivo txt
+sed -n '2p' /home/mario/ecommerce/dados_de_vendas.csv | cut -d',' -f5 >> "$OUTPUT_FILE"
+
+12-Copia a última linha do csv para o arquivo txt
+sed -n '67p' /home/mario/ecommerce/dados_de_vendas.csv | cut -d',' -f5 >> "$OUTPUT_FILE"
+
+13-Soma a quantidade total de itens únicos e incorpora ao arquivo txt
+tail -n +2 /home/mario/ecommerce/dados_de_vendas.csv | cut -d',' -f2 | sort | uniq | wc -l >> "$OUTPUT_FILE"
+
+14-Mostra as 10 primeiras linhas do arquivo csv e incrementa ao arquivo txt
+tail -n +2 /home/mario/ecommerce/dados_de_vendas.csv | head -n 10 /home/mario/ecommerce/dados_de_vendas.csv >> "$OUTPUT>echo >> "$OUTPUT_FILE"
+
+15-Comprime o arquivo csv que está dentro da pasta backup
+gzip /home/mario/ecommerce/vendas/backup/backup-dados*
+
+16-Remove o arquivo csv que está dentro da pasta backup
+rm -f /home/mario/ecommerce/vendas/backup/*.csv
+
+17-Muda para um diretorio anterior
+cd ..
+
+18-Remove o arquivo csv da pasta vendas
+rm -f /home/mario/ecommerce/vendas/dados_de_vendas*

@@ -1,0 +1,3 @@
+1-Copia todo o conteúdo de todos os arquivos txt armazenados na pasta backup para o arquivo relatorio_final.txt
+
+(cat /home/mario/ecommerce/vendas/backup/*.txt; printf "\n") >> /home/mario/ecommerce/relatorio_final.txt
