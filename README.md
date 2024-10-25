@@ -1,6 +1,7 @@
 ## Apresentação
 
 Olá, eu sou Mario Henrique Martins da Silva, moro em Sumaré-SP e tenho 31 anos<br>
+TEA nível de suporte 1 + TDAH<br>
 [Foto](Sprint01/apresentacao/Foto.png)<br>
 
 ### Estudos
