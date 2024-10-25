@@ -1,7 +1,7 @@
 ## Apresentação
 
 Olá, eu sou Mario Henrique Martins da Silva, moro em Sumaré-SP<br>
-[Foto](Sprint01/apresentacao/Foto.jpg)<br>
+[Foto](Sprint01/apresentacao/Foto.png)<br>
 
 ### Estudos
 -Estudo na UNIVESP e atualmente estou no 3º Semestre de Ciência de dados<br>
