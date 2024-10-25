@@ -1,13 +1,13 @@
 # Instruções
 Nesta Sprint foi realizado o desafio de criar um script no ambiente Linux para extrair dados de um arquivo csv e realizar outras operações relacionadas à manipulação de arquivos e agendamento de tarefas.
 
-# Resumo
+## Resumo
 
 **Git Hub:** Aprendi como criar diretórios e arquivos, fazer modificações, enviar alterações do repositório local para o remoto, criar e estilizar markdown.
 
 **Linux:** Aprendi a executar comandos como criar pastas, renomear, excluir arquivos. Manipular e criar arquivos de texto. Agendar tarefas
 
-# Evidências
+## Evidências
 
 Criando a pasta ecommerce e Copiando o arquivo csv
 [Evidencia 1](evidencias/Copiando_csv.png)
@@ -46,7 +46,7 @@ Visualização da pasta ecommerce
 [Evidencia 14](evidencias/pasta_ecommerce.png)
 
 Projeto completo com o código
-[Desafio](desafio/ecommerce.zip)
+[Arquivos do Desafio](desafio/ecommerce.zip)
 
-# Apresentação do desafio
+## Apresentação do desafio
 [Desafio](desafio/README.md)
