@@ -15,7 +15,6 @@ Para realizar a codificação, foram feitas partes do código no notepad(ambient
 4. Descrição do código processamento_de_vendas.sh:
 [Processamento_de_vendas.sh](../evidencias/Processamento_de_vendas.txt)
 
-
 5. Após a codificação do script processamento_de_vendas.sh, foi realizado o agendamento de sua execução através do comando: crontab -e, executando um simples comando, para ser executado na quinta e sexta-feira as 14:00 e 15:00
 
 6. Descrição do crontab:

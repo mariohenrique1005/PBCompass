@@ -36,13 +36,17 @@ Resultado após a primeira execução do script
 [Evidencia 10](evidencias/Primeira_execucao.png)
 
 Resultado após 4 execuções automáticas do script
-[Evidencia 11](evidencias/.png)
+[Evidencia 11](evidencias/resultado.png)
 
 Relatório final gerado
-[Evidencia 12](evidencias/.png)
+[Evidencia 12](evidencias/relatorio_final1.png)
+| [Evidencia 13](evidencias/relatorio_final2.png)
+
+Visualização da pasta ecommerce
+[Evidencia 14](evidencias/pasta_ecommerce.png)
 
 Projeto completo com o código
-[Evidencia 13](evidencias/ecommerce.zip)
+[Desafio](desafio/ecommerce.zip)
 
 # Apresentação do desafio
 [Desafio](desafio/README.md)
