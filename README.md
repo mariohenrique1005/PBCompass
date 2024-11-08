@@ -23,3 +23,6 @@ TEA nível de suporte 1 + TDAH<br>
 
 1. [Sprint 1](Sprint01/README.md)
 Nesta primeira sprint aprendi sobre comandos no Linux e como usar o GitHub
+
+2. [Sprint 2](Sprint02/README.md)
+Na segunda sprint aprendi diversos recursos da linguagem SQL e do ambiente de SQLITE: DBeaver
