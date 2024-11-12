@@ -49,3 +49,8 @@ Projeto completo com os arquivos e diagramas
 
 ## Apresentação do desafio
 [Desafio](desafio/README.md)
+
+### Exercicios
+<a href="../Sprint03/exercicios/" style="padding:5px 15px; background-color:#4CAF50; color:white; text-decoration:none; border-radius:5px;">Exercicios</a>
+
+<a href="../Sprint03/exercicios/Exercicio01.py" style="padding:5px 15px; background-color:#4CAF50; color:white; text-decoration:none; border-radius:5px;">Exercicio 1</a>
