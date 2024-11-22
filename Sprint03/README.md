@@ -118,4 +118,4 @@ Projeto completo com os arquivos
 # Certificados
 
 Certificado do Curso de AWS
-![Curso AWS](certificados/AWS.pdf)
+[Curso AWS](certificados/AWS.pdf)
