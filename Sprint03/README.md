@@ -38,13 +38,15 @@ Lendo o arquivo csv e armazenando em um Dataframe(df)
 ![Evidencia 2](evidencias/02.png)
 
 Visualizando as primeiras 10 linhas do arquivo
-![Evidencia 3](evidencias/03.png) | ![Evidencia 4](evidencias/04.png)
+![Evidencia 3](evidencias/03.png)
+![Evidencia 4](evidencias/04.png)
 
 Visualizando informações sobre os tipos de dados de cada coluna
 ![Evidencia 5](evidencias/05.png)
 
 Eliminando as linhas duplicadas, armazenando em um novo dataframe(df2) e visualizando o resultado
-![Evidencia 6](evidencias/06.png) | ![Evidencia 7](evidencias/07.png)
+![Evidencia 6](evidencias/06.png)
+![Evidencia 7](evidencias/07.png)
 
 Visualizando informações sobre o novo dataframe sem linhas duplicadas
 ![Evidencia 8](evidencias/08.png)
@@ -59,25 +61,31 @@ Visualizando os valores únicos de Category e Rating
 ![Evidencia 11](evidencias/11.png)
 
 Copiando o df2 para o df3 e organizando os atributos da linha 10472
-![Evidencia 12](evidencias/12.png) | ![Evidencia 13](evidencias/13.png)
+![Evidencia 12](evidencias/12.png)
+![Evidencia 13](evidencias/13.png)
 
 Visualização da linha 10472 corrigida
 ![Evidencia 14](evidencias/14.png)
 
 Visualização dos valores diferentes do padrão através do .unique()
-![Evidencia 15](evidencias/15.png) | ![Evidencia 16](evidencias/16.png)
+![Evidencia 15](evidencias/15.png)
+![Evidencia 16](evidencias/16.png)
 
 Mudanças nos atributos e conversão dos tipos de dados nos campos
-![Evidencia 17](evidencias/17.png) | ![Evidencia 18](evidencias/18.png)
+![Evidencia 17](evidencias/17.png)
+![Evidencia 18](evidencias/18.png)
 
 Plotando o primeiro gráfico, de barras, com os 5 aplicativos mais instalados
-![Evidencia 19](evidencias/19.png) | ![Evidencia 20](evidencias/20.png)
+![Evidencia 19](evidencias/19.png)
+![Evidencia 20](evidencias/20.png)
 
 Plotando o segundo gráfico, de pizza, exibindo a representação (em %) de aplicativos por categoria em relação ao total
-![Evidencia 21](evidencias/21.png) | ![Evidencia 22](evidencias/22.png)
+![Evidencia 21](evidencias/21.png)
+![Evidencia 22](evidencias/22.png)
 
 Mostrando o aplicativo mais caro 
-![Evidencia 23](evidencias/23.png) | ![Evidencia 24](evidencias/24.png)
+![Evidencia 23](evidencias/23.png)
+![Evidencia 24](evidencias/24.png)
 
 Mostrando quantos aplicativos são classificados como Mature 17+
 ![Evidencia 25](evidencias/25.png)
@@ -89,13 +97,16 @@ Os 5 aplicativos mais instalados da categoria 'Food and drink'
 ![Evidencia 28](evidencias/28.png)
 
 Exibição do aplicativo pago mais baixado e sua respectiva categoria
-![Evidencia 29](evidencias/29.png) | ![Evidencia 30](evidencias/30.png)
+![Evidencia 29](evidencias/29.png)
+![Evidencia 30](evidencias/30.png)
 
 Criação de um novo gráfico, do tipo dispersão, exibindo os 10 aplicativos com maior números de reviews e seu respectivo rating
-![Evidencia 31](evidencias/31.png) | ![Evidencia 32](evidencias/32.png)
+![Evidencia 31](evidencias/31.png)
+![Evidencia 32](evidencias/32.png)
 
 Criação de um gráfico do tipo linha, exibindo os 5 aplicativos mais instalados da categoria 'Food and drink' e seu respectivo rating
-![Evidencia 33](evidencias/33.png) | ![Evidencia 34](evidencias/34.png)
+![Evidencia 33](evidencias/33.png)
+![Evidencia 34](evidencias/34.png)
 
 Projeto completo com os arquivos
 [Arquivos do Desafio](desafio/)
