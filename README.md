@@ -26,3 +26,6 @@ Nesta primeira sprint aprendi sobre comandos no Linux e como usar o GitHub
 
 2. [Sprint 2](Sprint02/README.md)
 Na segunda sprint aprendi diversos recursos da linguagem SQL e do ambiente de SQLITE: DBeaver
+
+3. [Sprint 3](Sprint03/README.md)
+Na terceira sprint aprendi novos recursos da linguagem Python e trabalhei com as bibliotecas Pandas e Matplotlib, além de usar o Google Colab
