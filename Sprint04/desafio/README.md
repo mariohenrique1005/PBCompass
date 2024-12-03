@@ -15,7 +15,7 @@ Para a execução deste desafio foram criados códigos Python e scripts de execu
 4. Pode-se conferir que não há nenhum container em execução, e que a imagem anterior já foi executada (pode-se verificar isto através do comando: **docker ps -a**)
 ![Evidencia 4](../evidencias/04.png)
 
-5. Verifica-se se é possível reutilizar o mesmo container utilizado anteriormente, cujo nome é: **trusting_darwin**, reiniciando-o
+5. Verifica-se se é possível reutilizar o mesmo container utilizado anteriormente, cujo nome é: **trusting_darwin**, reiniciando-o. Resposta ao questionamento: [Resposta](Resposta.md)
 ![Evidencia 5](../evidencias/05.png)
 
 6. Pode-se constatar que o container foi reutilizado, de acordo com o **STATUS**, saída há 37 segundos atrás
