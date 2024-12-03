@@ -1,94 +1,43 @@
 # Desafio
-Para a execução deste desafio foi criado um código na linguagem Python, com o auxílio das bibliotecas Pandas e Matplotlib no ambiente de desenvolvimento online: Google Colab, um notebook semelhante ao Jupyter
+Para a execução deste desafio foram criados códigos Python e scripts de execução para os Dockerfile no ambiente de desenvolvimento do VSCode, além de executar comandos para criação, execução de imagens e containers, entre outros comandos relacionados ao Docker no Shell Script e CMD do Windows.
 
 ## Etapas
 
-1. Para a correta execução do desafio, primeiro foi necessário importar as bibliotecas Pandas e Numpy, e posteriormente fazer o upload do arquivo CSV, que contém todos os dados utilizados
+1. A Primeira etapa consiste em criar um arquivo Dockerfile para criar uma imagem com o script **carguru.py**
 ![Evidencia 1](../evidencias/01.png)
 
-2. Então o arquivo csv é lido e armazenado em uma variável e por sua vez armazenando em um Dataframe(df)
+2. Depois de criado o Dockerfile, é hora de executá-lo e criar a imagem, nomeando-a como: **carguru_img**
 ![Evidencia 2](../evidencias/02.png)
 
-3. Visualizar as primeiras 10 linhas do arquivo para entender a estrutura dos dados e visualizar as colunas
+3. Execução e criação de um container com a imagem criada recentemente. A saída do script é impressa na tela e sua execução chega ao fim
 ![Evidencia 3](../evidencias/03.png) 
+
+4. Pode-se conferir que não há nenhum container em execução, e que a imagem anterior já foi executada (pode-se verificar isto através do comando: **docker ps -a**)
 ![Evidencia 4](../evidencias/04.png)
 
-4. Visualizando informações sobre os tipos de dados de cada coluna, será necessário converter os tipos de dados de todas as colunas, que estão como **object**, exceto por Rating que já está em float
+5. Verifica-se se é possível reutilizar o mesmo container utilizado anteriormente, cujo nome é: **trusting_darwin**, reiniciando-o
 ![Evidencia 5](../evidencias/05.png)
 
-5. Eliminando as linhas duplicadas, armazenando em um novo dataframe(df2), para tornar o primeiro dataframe como um backup, e visualizando o resultado. O dataframe(df2) foi reduzido de 10841 linhas para 10358
+6. Pode-se constatar que o container foi reutilizado, de acordo com o **STATUS**, saída há 37 segundos atrás
 ![Evidencia 6](../evidencias/06.png)
+
+7. É criado um novo script Python para gerar hashs para cada string de entrada, por meio do algoritmo SHA-1
 ![Evidencia 7](../evidencias/07.png)
 
-6. Visualizando informações sobre o novo dataframe(df2) sem linhas duplicadas
+8. Criação de um novo Dockerfile para criar a imagem com o script de mascarar dados
 ![Evidencia 8](../evidencias/08.png)
 
-7. Verificando as linhas que estavam duplicadas no dataframe inicial(df)
+9. Execução do Dockerfile e criação da imagem **mascarar-dados**
 ![Evidencia 9](../evidencias/09.png)
 
-8. Conferindo se a linha toda realmente estava duplicada, a partir do exemplo de visualização do aplicativo: "AAFP" em df. Pode-se constatar que a linha 10768 é uma cópia da 2515
+10. Criando e executando o container de forma interativa, para que seja possível entrar com dados no script, no próprio terminal
 ![Evidencia 10](../evidencias/10.png)
 
-9. Visualizando os valores únicos de Category e Rating. Das execuções [10] a [13] foram feitas verificações de valores únicos em suas respectivas colunas para detectar valores inconsistentes ou fora do padrão
+11. Constatando que o container que contém a imagem **mascarar-dados** está em execução. Para pará-lo, é necessário dar o comando **Ctrl+c** ou abrir um novo terminal e digitar: **docker stop nome_container**
 ![Evidencia 11](../evidencias/11.png)
 
-10. Ao detectar uma linha fora do padrão em 'Reviews', foi executado o comando para visualizar esta linha e  constatou-se que os valores estavam todos fora do lugar. Então em [14] foi feita uma copia do df2 para o df3 (pois grandes mudanças foram feitas, por segurança df2 foi mantido como um backup e as alterações feitas em df3), e feitas as alterações nos campos desta linha 10472
-![Evidencia 12](../evidencias/12.png)
-![Evidencia 13](../evidencias/13.png)
-Linha corrigida:
-![Evidencia 14](../evidencias/14.png)
-
-11. De [15] a [27] foram feitas verificações de valores únicos em suas respectivas colunas para detectar valores inconsistentes ou fora do padrão
-![Evidencia 15](../evidencias/15.png)
-![Evidencia 16](../evidencias/16.png)
-
-12. Cópia do df3 para o df4 para realizar as futuras mudanças nos atributos e conversão dos tipos de dados nos campos. De [29] a [55] foram realizadas as mudanças necessárias, como substituição de valores e conversão de tipos de dados
-![Evidencia 17](../evidencias/17.png)
-Aqui é possível verificar as colunas e seus tipos de dados em df4:
-![Evidencia 18](../evidencias/18.png)
-
-13. Plotagem do primeiro gráfico, de barras, com os 5 aplicativos mais instalados. Antes da plotagem do gráfico é necessário criar o vetor com os 5 aplicativos mais instalados, extraídos da coluna 'Installs'
-![Evidencia 19](../evidencias/19.png)
-Gráfico:
-![Evidencia 20](../evidencias/20.png)
-
-14. Plotagem do segundo gráfico, de pizza, e exibição da representação (em %) de aplicativos por categoria em relação ao total
-![Evidencia 21](../evidencias/21.png)
-Gráfico:
-![Evidencia 22](../evidencias/22.png)
-
-15. Mostrando o aplicativo mais caro, através da seleção do maior valor de 'Price'
-![Evidencia 23](../evidencias/23.png)
-![Evidencia 24](../evidencias/24.png)
-
-16. Mostrando quantos aplicativos são classificados como Mature 17+ Para exibir apenas o valor, é necessário que seja exibido apenas o primeiro valor do vetor, com: shape[0]
-![Evidencia 25](../evidencias/25.png)
-
-17. Exibindo os 10 aplicativos por maior número de reviews, juntamente com a quantidade de reviews que possuem. Foi necessário selecionar os únicos, pois haviam aplicativos repetidos
-![Evidencia 26](../evidencias/26.png)
-
-**A partir desta seção a escolha das operações efetuadas ficaram a critério do desenvolvedor**
-
-18. Foi escolhida a exibição dos 5 aplicativos mais instalados da categoria 'Food and drink' e exibido as respectivas quantidades de instalações em formato de valor e depois de lista
-![Evidencia 28](../evidencias/28.png)
-
-19. Foi escolhido a exibição do aplicativo pago mais baixado e sua respectiva categoria, primeiro em formato de valor e depois de lista
-![Evidencia 29](../evidencias/29.png)
-![Evidencia 30](../evidencias/30.png)
-
-20. Criação de um novo gráfico, do tipo dispersão, exibindo os 10 aplicativos com maior números de reviews e seu respectivo rating.
-![Evidencia 31](../evidencias/31.png)
-Podemos notar que para um número de reviews acima de 50 milhões apenas 1 aplicativo possui nota maior ou igual 4.5, porém o conjunto de dados ainda é pequeno para tirar alguma conclusão concreta. Gráfico:
-![Evidencia 32](../evidencias/32.png)
-
-21. Criação de um gráfico do tipo linha, exibindo os 5 aplicativos mais instalados da categoria 'Food and drink' e seu respectivo rating
-![Evidencia 33](../evidencias/33.png)
-Aqui todos os aplicativos selecionados possuem o mesmo número de instalações. Podemos verificar que há um salto na nota quando saímos das duas versões de 'Mc Donald's' para outros aplicativos de outras marcas. Gráfico:
-![Evidencia 34](../evidencias/34.png)
 
 ## Erros e problemas
 
-1. Para que fosse possível fazer as alterações na linha 10472 em [Evidencia 12](../evidencias/12.png) foram feitas várias reexecuções no código com várias modificações até acertar as colunas correspondentes para as mudanças corretas
-
-2. Foi necessário selecionar os valores únicos de 'Reviews', pois apenas selecionando os 10 aplicativos por maior número de reviews, os valores estavam aparecendo duplicados, como pode ser visto em:
-![Evidencia 27](../evidencias/27.png)
+1. Ao criar e consequentemente executar um novo container para a imagem **mascarar-dados** um erro foi apresentado ao não colocar a execução como forma interativa. É importante fazer isto, pois neste caso trata-se de uma imagem com um script contendo laço de repetição que exige execução ininterrupta do container no Docker.
+![Evidencia 12](../evidencias/12.png)
