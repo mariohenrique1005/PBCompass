@@ -51,8 +51,11 @@ Criando o container e executando-o de forma interativa
 Container da imagem mascarar-dados em execução
 ![Evidencia 11](evidencias/11.png)
 
-Erro ao executar a imagem sem o -it
+Saindo do terminal e encerrando a execução do container
 ![Evidencia 12](evidencias/12.png)
+
+Erro ao executar a imagem sem o -it
+![Evidencia 13](evidencias/13.png)
 
 Projeto completo com os arquivos
 [Arquivos do Desafio](desafio/)

@@ -29,3 +29,6 @@ Na segunda sprint aprendi diversos recursos da linguagem SQL e do ambiente de SQ
 
 3. [Sprint 3](Sprint03/README.md)
 Na terceira sprint aprendi novos recursos da linguagem Python e trabalhei com as bibliotecas Pandas e Matplotlib, além de usar o Google Colab
+
+4. [Sprint 4](Sprint04/README.md)
+Na quarta sprint aprendi novas funções da linguagem Python e a trabalhar com o Docker

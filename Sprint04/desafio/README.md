@@ -36,8 +36,11 @@ Para a execução deste desafio foram criados códigos Python e scripts de execu
 11. Constatando que o container que contém a imagem **mascarar-dados** está em execução. Para pará-lo, é necessário dar o comando **Ctrl+c** ou abrir um novo terminal e digitar: **docker stop nome_container**
 ![Evidencia 11](../evidencias/11.png)
 
+12. Para pará-lo, foi dado o comando **Ctrl+c**
+![Evidencia 12](../evidencias/12.png)
+
 
 ## Erros e problemas
 
 1. Ao criar e consequentemente executar um novo container para a imagem **mascarar-dados** um erro foi apresentado ao não colocar a execução como forma interativa. É importante fazer isto, pois neste caso trata-se de uma imagem com um script contendo laço de repetição que exige execução ininterrupta do container no Docker.
-![Evidencia 12](../evidencias/12.png)
+![Evidencia 13](../evidencias/13.png)
