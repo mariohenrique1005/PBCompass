@@ -1,3 +1,0 @@
-## É possível reutilizar containers? Em caso positivo, apresente o comando necessário para reiniciar um das containers parados em seu ambiente Docker? Não sendo possível reutilizar, justifique sua resposta.
-
-Sim, é possível reutilizar containers através do comando **docker restart nome_container**. Se o script não exigir execução ininterrupta, ele irá executar normalmente e depois parar, assim como foi executado da primeira vez. O mesmo vale para os scripts com laços de repetição, com a única diferença que ele irá continuar sua execução normalmente após o reinício, porém é necessário colocar o comando: **docker attach nome_container**, logo após o reinício, para ter acesso ao terminal do container.

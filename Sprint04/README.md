@@ -3,8 +3,8 @@
 Nesta Sprint foi realizado o desafio de criar e executar imagens e containers do Docker, executando 2 scripts distintos do Python. O desafio foi executado com as seguintes etapas:<br>
 
 1- Construção da primeira imagem e execução do script: "Carguru.py" em um container<br>
-2- Reutilização de um container. Resposta ao questionamento: [Resposta](desafio/Resposta.md)<br>
-3- Construção da segunda imagem e execução do script que cria hashs para strings em um novo container
+2- Reutilização de um container<br>
+3- Construção da segunda imagem e execução do script que cria hashs para strings, através do algoritmo SHA-1, em um novo container
 
 ## Resumo
 
@@ -56,6 +56,12 @@ Saindo do terminal e encerrando a execução do container
 
 Erro ao executar a imagem sem o -it
 ![Evidencia 13](evidencias/13.png)
+
+Utilização do algoritmo incorreto
+![Evidencia 14](evidencias/14.png)
+
+Hashs criadas de forma incorreta(256 bits no lugar de 160 bits)
+![Evidencia 15](evidencias/15.png)
 
 Projeto completo com os arquivos
 [Arquivos do Desafio](desafio/)
