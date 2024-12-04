@@ -60,10 +60,10 @@ Erro ao executar a imagem sem o -it
 Utilização do algoritmo incorreto
 ![Evidencia 14](evidencias/14.png)
 
-Hashs criadas de forma incorreta(256 bits no lugar de 160 bits)
+Hashs criadas de forma incorreta (256 bits no lugar de 160 bits)
 ![Evidencia 15](evidencias/15.png)
 
-Projeto completo com os arquivos
+Projeto completo com os arquivos:
 [Arquivos do Desafio](desafio/)
 
 ## Apresentação do desafio
@@ -72,5 +72,5 @@ Projeto completo com os arquivos
 
 # Certificados
 
-Certificado do Curso de AWS
+Certificado do Curso de AWS:
 [Certificado AWS](certificados/AWS.pdf)
