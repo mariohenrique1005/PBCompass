@@ -72,5 +72,5 @@ Projeto completo com os arquivos:
 
 # Certificados
 
-Certificado do Curso de AWS:
-[Certificado AWS](certificados/AWS.pdf)
+Certificados do Curso de AWS:
+[Certificado AWS 1](certificados/AWS1.pdf) | [Certificado AWS 2](certificados/AWS2.pdf)
