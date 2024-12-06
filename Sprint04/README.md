@@ -2,9 +2,9 @@
 
 Nesta Sprint foi realizado o desafio de criar e executar imagens e containers do Docker, executando 2 scripts distintos do Python. O desafio foi executado com as seguintes etapas:<br>
 
-1- Construção da primeira imagem e execução do script: "Carguru.py" em um container<br>
-2- Reutilização de um container<br>
-3- Construção da segunda imagem e execução do script que cria hashs para strings, através do algoritmo SHA-1, em um novo container
+1. Construção da primeira imagem e execução do script: "Carguru.py" em um container<br>
+2. Reutilização de um container<br>
+3. Construção da segunda imagem e execução do script que cria hashs para strings, através do algoritmo SHA-1, em um novo container
 
 ## Resumo
 
@@ -14,7 +14,7 @@ Nesta Sprint foi realizado o desafio de criar e executar imagens e containers do
 
 # Exercícios
 
-1. [Pasta Exercicios](exercicios/)
+[Pasta Exercicios](exercicios/)
 
 ## Evidências
 
