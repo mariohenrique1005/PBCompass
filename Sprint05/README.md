@@ -137,5 +137,10 @@ Execução do script **Desafio5.py**
 ![Evidencia 32](evidencias/Exec_04.png)
 ![Evidencia 33](evidencias/Exec_05.png)
 
+Arquivos CSV salvos localmente
+![Evidencia 34](evidencias/Exec_06.png)
+
+Arquivos salvos no S3, com o bucket criado
+![Evidencia 35](evidencias/Exec_07.png)
 
 [Arquivos do Desafio](desafio/)
