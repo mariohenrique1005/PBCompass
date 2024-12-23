@@ -21,9 +21,12 @@ Nesta Sprint foi realizado o desafio de criar um script em Python para analisar 
 
 # Certificados
 
-Certificados do Curso de AWS:
-[Certificado AWS 1](certificados/aws-cloud-quest-cloud-practitioner.png)<br>
+Certificado do Curso de AWS Cloud Practitioner:
+[Cloud Practitioner](certificados/aws-cloud-quest-cloud-practitioner.png)<br>
 Link para a badge: https://www.credly.com/badges/3764c6fe-d862-4342-81df-e12aaf0f66cb/public_url
+
+Certificado do Curso de preparação AWS Certified Cloud Practitioner:
+[Certificado AWS Preparação](certificados/AWS_Preparation.pdf)
 
 # Exercícios
 
