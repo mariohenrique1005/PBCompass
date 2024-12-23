@@ -32,3 +32,6 @@ Na terceira sprint aprendi novos recursos da linguagem Python e trabalhei com as
 
 4. [Sprint 4](Sprint04/README.md)
 Na quarta sprint aprendi novas funções da linguagem Python e a trabalhar com o Docker
+
+5. [Sprint 5](Sprint05/README.md)
+Na quinta sprint aprendi novas funções das bibliotecas OS e Boto3 para o Python e a trabalhar com diversos serviços da AWS, tais como: EC2, S3, IAM, Dynamo DB, entre outros

@@ -19,6 +19,12 @@ Nesta Sprint foi realizado o desafio de criar um script em Python para analisar 
 
 **IAM**: Como gerenciar usuários e grupos de usuários
 
+# Certificados
+
+Certificados do Curso de AWS:
+[Certificado AWS 1](certificados/aws-cloud-quest-cloud-practitioner.png)<br>
+Link para a badge: https://www.credly.com/badges/3764c6fe-d862-4342-81df-e12aaf0f66cb/public_url
+
 # Exercícios
 
 [Pasta Exercicios](exercicios/)
@@ -33,6 +39,11 @@ Execução da página index.html:
 
 Instância no EC2 em execução:
 ![Instância](exercicios/Instancia_execucao.png)
+
+## Apresentação do desafio
+
+[Desafio](desafio/README.md)
+
 
 ## Evidências
 
@@ -128,13 +139,3 @@ Execução do script **Desafio5.py**
 
 
 [Arquivos do Desafio](desafio/)
-
-## Apresentação do desafio
-
-[Desafio](desafio/README.md)
-
-# Certificados
-
-Certificados do Curso de AWS:
-[Certificado AWS 1](certificados/aws-cloud-quest-cloud-practitioner.png)
-Link para a badge: https://www.credly.com/badges/3764c6fe-d862-4342-81df-e12aaf0f66cb/public_url
