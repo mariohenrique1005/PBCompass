@@ -35,3 +35,6 @@ Na quarta sprint aprendi novas funções da linguagem Python e a trabalhar com o
 
 5. [Sprint 5](Sprint05/README.md)
 Na quinta sprint aprendi novas funções das bibliotecas OS e Boto3 para o Python e a trabalhar com diversos serviços da AWS, tais como: EC2, S3, IAM, Dynamo DB, entre outros
+
+6. [Sprint 6](Sprint06/README.md)
+Na sexta sprint aprendi na práticas sobre novos serviços da AWS, tais como: Lambda e Amazon Athena, além de conhecer outros serviços como: Quicksight, EMR, Glue e outros serviços de analytics
