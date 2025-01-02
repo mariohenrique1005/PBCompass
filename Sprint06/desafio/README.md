@@ -9,7 +9,7 @@ Para a execução deste desafio foi necessário primeiramente definir as questõ
 2- Qual ator teve o filme/série com a maior nota média?<br>
 3- Qual foi o filme mais votado e sua nota?<br>
 4- O ator que teve o filme/série com a maior nota média atuou em quais filmes/séries?<br>
-5- O filmes que tem mais de 120 minutos de duração tem nota média maior que os filmes menores de 120 minutos?<br>
+5- Os filmes que tem mais de 120 minutos de duração tem nota média maior que os filmes menores de 120 minutos?<br>
 6- As series com mais de 2 anos de duração possuem nota média maior que as séries que tem 2 anos ou menos de duração?
 
 ### Códigos do desafio

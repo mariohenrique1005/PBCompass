@@ -34,7 +34,7 @@ dia=data_atual.day
 # Nome do Bucket de destino
 bucket_name='desafio-final-mario-henrique'
 
-# Definindo destino do arquivo movies para upload
+# Definindo destino do arquivo 'movies' para upload
 file_name1='movies.csv'
 s3_file_name=f'Raw/Local/CSV/Movies/{ano}/{mes}/{dia}/{file_name1}'
 s3_client=boto3.client('s3', region_name='us-east-1')
@@ -51,7 +51,7 @@ except Exception as e:
     else:
         print("Arquivo não encontrado.")
 
-# Definindo destino do arquivo series para upload
+# Definindo destino do arquivo 'series' para upload
 file_name2='series.csv'
 s3_file_name=f'Raw/Local/CSV/Series/{ano}/{mes}/{dia}/{file_name2}'
 

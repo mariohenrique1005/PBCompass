@@ -94,24 +94,30 @@ Exercicio 3 - Lab AWS Lambda
 [Arquivos do Desafio](desafio/)
 
 Códigos do Script em Python:
-![Evidencia 1](evidencias/01.png)
-![Evidencia 2](evidencias/02.png) 
-![Evidencia 3](evidencias/03.png)
+![Evidencia 1](evidencias/01.png)<br>
+![Evidencia 2](evidencias/02.png)<br>
+![Evidencia 3](evidencias/03.png)<br>
+![Evidencia 4](evidencias/04.png)<br>
+![Evidencia 5](evidencias/05.png)<br>
+![Evidencia 6](evidencias/06.png)<br>
+![Evidencia 7](evidencias/07.png)<br>
+![Evidencia 8](evidencias/08.png)<br>
+![Evidencia 9](evidencias/09.png)
 
 Código do arquivo Dockerfile
-![Evidencia 4](evidencias/04.png)
+![Evidencia 10](evidencias/10.png)
 
 Construindo a imagem
-![Evidencia 5](evidencias/Exec_01.png)
-![Evidencia 6](evidencias/Exec_02.png)
+![Evidencia 11](evidencias/Exec_01.png)
+![Evidencia 12](evidencias/Exec_02.png)
 
 Executando e construindo um novo container com a imagem criada
-![Evidencia 7](evidencias/Exec_03.png)
-![Evidencia 8](evidencias/Exec_04.png)
+![Evidencia 13](evidencias/Exec_03.png)
+![Evidencia 14](evidencias/Exec_04.png)
 
 Arquivos salvos no Bucket na AWS S3
-![Evidencia 9](evidencias/Exec_05.png)
-![Evidencia 10](evidencias/Exec_06.png)
+![Evidencia 15](evidencias/Exec_05.png)
+![Evidencia 16](evidencias/Exec_06.png)
 
 Erro de credenciais não localizadas
-![Evidencia 11](evidencias/Err_01.png)
+![Evidencia 17](evidencias/Err_01.png)
