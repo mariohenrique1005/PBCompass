@@ -38,3 +38,6 @@ Na quinta sprint aprendi novas funções das bibliotecas OS e Boto3 para o Pytho
 
 6. [Sprint 6](Sprint06/README.md)
 Na sexta sprint aprendi na prática sobre novos serviços da AWS, tais como: Lambda e Amazon Athena, além de conhecer outros serviços como: Quicksight, EMR, Glue e outros serviços de analytics
+
+7. [Sprint 7](Sprint07/README.md)
+Na sétima sprint aprendi mais sobre os serviços AWS, aplicando na prática os conceitos estudados. Também foi aprendido conceitos sobre Apache Spark
