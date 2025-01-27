@@ -1,7 +1,7 @@
 # Instruções
 
 Nesta Sprint foram realizados alguns exercícios no Python e no Spark, com operações referentes a consulta e inserção de dados em dataframes utilizando o Spark SQL. <br>
-Também foi executada a terceira parte do desafio, tratando os dados da camada RAW e enviando-os para a camada TRUSTED, convertendo os arquivos para o formato parquet.
+Também foi executada a terceira parte do desafio, tratando os dados da camada RAW e enviando-os para a camada TRUSTED, convertendo e limpando os arquivos para o formato parquet.
 
 ## Resumo
 
