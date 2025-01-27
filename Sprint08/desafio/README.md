@@ -58,33 +58,33 @@ Questionamentos:<br>
 ![Evidencia 12](../evidencias/12.png)<br>
 
 13. Conversão de volta para o DynamicFrame, para ser convertido para o formato parquet
-![Evidencia 13](../evidencias/13.png)
+![Evidencia 13](../evidencias/13.png)<br>
 
 14. Conversão dos dados para o formato parquet, contendo todos os parâmetros necessários
-![Evidencia 14](../evidencias/14.png)
+![Evidencia 14](../evidencias/14.png)<br>
 
 ### Criando o código para os dados JSON vindos do TMDB
 
 15. Importação das bibliotecas para executar o script no AWS Glue
-![Evidencia 15](../evidencias/15.png)
+![Evidencia 15](../evidencias/15.png)<br>
 
 16. Definição dos parâmetros para iniciar o job
-![Evidencia 16](../evidencias/16.png)
+![Evidencia 16](../evidencias/16.png)<br>
 
 17. Definição dos caminhos de entrada e saída dos arquivos
-![Evidencia 17](../evidencias/17.png)
+![Evidencia 17](../evidencias/17.png)<br>
 
 18. Leitura dos arquivos JSON, de origem da API do TMDB. Armazenamento em um dynamic dataframe
-![Evidencia 18](../evidencias/18.png)
+![Evidencia 18](../evidencias/18.png)<br>
 
 19. Transforma o dynamic dataframe para um dataframe comum, para que possam ser feitos outros procedimentos
-![Evidencia 19](../evidencias/19.png)
+![Evidencia 19](../evidencias/19.png)<br>
 
 20. Remoção dos registros com valores nulos e duplicados
-![Evidencia 20](../evidencias/20.png)
+![Evidencia 20](../evidencias/20.png)<br>
 
 21. Transforma o dataframe que teve os dados tratados no formato parquet
-![Evidencia 21](../evidencias/21.png)
+![Evidencia 21](../evidencias/21.png)<br>
 
 ### Configurações na AWS
 
@@ -143,7 +143,7 @@ No print a seguir é possível ver que o serviço foi executado com sucesso
 
 Houveram alguns erros durante as execuções do script para processar os arquivos CSV, como pode-se ver a seguir
 
-1. Como pode-se ver através do log de erros no Cloudwatch, é possível ver que houve um erro ao tentar gravar
+1. Através do log de erros no Cloudwatch, é possível ver que houve um erro ao tentar gravar
 no bucket especificado. Posteriormente isso foi corrigido alterando as permissões do IAM
 ![Erro 01](../evidencias/Err_01.png)
 

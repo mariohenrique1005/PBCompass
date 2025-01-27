@@ -9,7 +9,7 @@ Também foi executada a terceira parte do desafio, tratando os dados da camada R
 
 **Amazon Athena:** Consultar dados a partir do catálogo criado
 
-**Apache Spark:** Executar funções de consulta de dados
+**Apache Spark:** Executar funções de consulta e inserção de dados
 
 **Python:** Executar scripts para criar arquivos de dados
 
@@ -31,10 +31,10 @@ Etapa 2 - Criação de uma lista contendo 20 animais e geração de um arquivo C
 Etapa 3 - Criação de um arquivo txt contendo 10 milhões de nomes aleatórios<br>
 [Código](exercicios/Exercicio01/Etapa3.py)
 ![Print 03](exercicios/Exercicio01/Etapa3.png)
-O arquivo era pesado para ser carregado no Github, então um print do arquivo local foi gerado:
+O arquivo era pesado para ser carregado no Github (140 MB), então um print do arquivo local foi gerado:
 ![Print 04](exercicios/Exercicio01/Etapa3-nomes_aleatorios.png)
 
-Exercicio 2 - Apache Spark. Utilização do Spark para inserir e consultar dados<br>
+Exercicio 2 - Apache Spark. Utilização do Spark para inserir e consultar dados em dataframe<br>
 [Código](exercicios/Exercicio02/Exercicio02.ipynb)
 ![Print 01](exercicios/Exercicio02/01.png)
 ![Print 02](exercicios/Exercicio02/02.png)
@@ -65,106 +65,106 @@ Exercicio 3 - Exercício TMDB. Obtenção de dados a partir da API do TMDB<br>
 [Arquivos do Desafio](desafio/)
 
 Importação das bibliotecas necessárias para executar o código de processamento dos CSVs
-![Evidencia 1](evidencias/01.png)
+![Evidencia 1](evidencias/01.png)<br>
 
 Parâmetros para execução correta do script, incluindo os paths
-![Evidencia 2](evidencias/02.png)
+![Evidencia 2](evidencias/02.png)<br>
 
 Definição dos paths de entrada e saída
-![Evidencia 3](evidencias/03.png)
+![Evidencia 3](evidencias/03.png)<br>
 
 Função para limpar inconsistências no dataframe
-![Evidencia 4](evidencias/04.png)
+![Evidencia 4](evidencias/04.png)<br>
 
 Parâmetros para ler o CSV do arquivo movies
-![Evidencia 5](evidencias/05.png)
+![Evidencia 5](evidencias/05.png)<br>
 
 Conversão para um dataframe do Spark
-![Evidencia 6](evidencias/06.png)
+![Evidencia 6](evidencias/06.png)<br>
 
 Contagem do número de colunas no dataframe e chamada da função
-![Evidencia 7](evidencias/07.png)
+![Evidencia 7](evidencias/07.png)<br>
 
 Conversão do dataframe movies para dynamic dataframe
-![Evidencia 8](evidencias/08.png)
+![Evidencia 8](evidencias/08.png)<br>
 
 Conversão de movies para o formato parquet
-![Evidencia 9](evidencias/09.png)
+![Evidencia 9](evidencias/09.png)<br>
 
 Parâmetros para ler o CSV do arquivo series
-![Evidencia 10](evidencias/10.png)
+![Evidencia 10](evidencias/10.png)<br>
 
 Conversão para um dataframe do Spark
-![Evidencia 11](evidencias/11.png)
+![Evidencia 11](evidencias/11.png)<br>
 
 Contagem do número de colunas no dataframe e chamada da função
-![Evidencia 12](evidencias/12.png)
+![Evidencia 12](evidencias/12.png)<br>
 
 Conversão do dataframe series para dynamic dataframe
-![Evidencia 13](evidencias/13.png)
+![Evidencia 13](evidencias/13.png)<br>
 
 Conversão de series para o formato parquet e fim do job
-![Evidencia 14](evidencias/14.png)
+![Evidencia 14](evidencias/14.png)<br>
 
 Importação das bibliotecas necessárias para executar o código de processamento dos JSONs
-![Evidencia 15](evidencias/15.png)
+![Evidencia 15](evidencias/15.png)<br>
 
 Parâmetros para execução correta do script, incluindo os paths
-![Evidencia 16](evidencias/16.png)
+![Evidencia 16](evidencias/16.png)<br>
 
 Definição dos paths de entrada e saída
-![Evidencia 17](evidencias/17.png)
+![Evidencia 17](evidencias/17.png)<br>
 
 Parâmetros para ler os arquivos JSON
-![Evidencia 18](evidencias/18.png)
+![Evidencia 18](evidencias/18.png)<br>
 
 Conversão para um dataframe do spark
-![Evidencia 19](evidencias/19.png)
+![Evidencia 19](evidencias/19.png)<br>
 
 Remoção dos registros com valores duplicados e nulos
-![Evidencia 20](evidencias/20.png)
+![Evidencia 20](evidencias/20.png)<br>
 
 Conversão para o formato parquet
-![Evidencia 21](evidencias/21.png)
+![Evidencia 21](evidencias/21.png)<br>
 
 Configuração do IAM
-![Evidencia 22](evidencias/22.png)
+![Evidencia 22](evidencias/22.png)<br>
 
 Configuração do IAM no job Glue para processamento dos CSVs
-![Evidencia 23](evidencias/23.png)
+![Evidencia 23](evidencias/23.png)<br>
 
 Detalhes da configuração do job Glue 
-![Evidencia 24](evidencias/24.png)
+![Evidencia 24](evidencias/24.png)<br>
 
 Definição das variáveis para o job
-![Evidencia 25](evidencias/25.png)
+![Evidencia 25](evidencias/25.png)<br>
 
 Configuração do IAM no job Glue para processamento dos JSONs
-![Evidencia 26](evidencias/26.png)
+![Evidencia 26](evidencias/26.png)<br>
 
 Detalhes da configuração do job Glue 
-![Evidencia 27](evidencias/27.png)
+![Evidencia 27](evidencias/27.png)<br>
 
 Definição das variáveis para o job
-![Evidencia 28](evidencias/28.png)
+![Evidencia 28](evidencias/28.png)<br>
 
 Execução bem sucedida para o job de processamento dos CSVs
-![Evidencia 29](evidencias/29.png)
+![Evidencia 29](evidencias/29.png)<br>
 
 Execução bem sucedida para o job de processamento dos JSONs
-![Evidencia 30](evidencias/30.png)
+![Evidencia 30](evidencias/30.png)<br>
 
 Arquivos parquet no bucket para o CSV Movies
-![Evidencia 31](evidencias/31.png)
+![Evidencia 31](evidencias/31.png)<br>
 
 Arquivos parquet no bucket para o CSV Series
-![Evidencia 32](evidencias/32.png)
+![Evidencia 32](evidencias/32.png)<br>
 
 Arquivo parquet no bucket para os JSONs
-![Evidencia 33](evidencias/33.png)
+![Evidencia 33](evidencias/33.png)<br>
 
 Criação do catálogo de dados com o Crawler
-![Evidencia 34](evidencias/34.png)
+![Evidencia 34](evidencias/34.png)<br>
 
 Dados visualizados no Amazon Athena para movies, series e os JSONs do TMDB
 ![Evidencia 35](evidencias/35.png)
