@@ -65,25 +65,25 @@ Questionamentos:<br>
 
 ### Criando o código para os dados JSON vindos do TMDB
 
-15. Importação das bibliotecas para executar o script no AWS Glue
+15. Importação das bibliotecas para executar o script no AWS Glue<br>
 ![Evidencia 15](../evidencias/15.png)<br>
 
-16. Definição dos parâmetros para iniciar o job
+16. Definição dos parâmetros para iniciar o job<br>
 ![Evidencia 16](../evidencias/16.png)<br>
 
-17. Definição dos caminhos de entrada e saída dos arquivos
+17. Definição dos caminhos de entrada e saída dos arquivos<br>
 ![Evidencia 17](../evidencias/17.png)<br>
 
-18. Leitura dos arquivos JSON, de origem da API do TMDB. Armazenamento em um dynamic dataframe
+18. Leitura dos arquivos JSON, de origem da API do TMDB. Armazenamento em um dynamic dataframe<br>
 ![Evidencia 18](../evidencias/18.png)<br>
 
-19. Transforma o dynamic dataframe para um dataframe comum, para que possam ser feitos outros procedimentos
+19. Transforma o dynamic dataframe para um dataframe comum, para que possam ser feitos outros procedimentos<br>
 ![Evidencia 19](../evidencias/19.png)<br>
 
-20. Remoção dos registros com valores nulos e duplicados
+20. Remoção dos registros com valores nulos e duplicados<br>
 ![Evidencia 20](../evidencias/20.png)<br>
 
-21. Transforma o dataframe que teve os dados tratados no formato parquet
+21. Transforma o dataframe que teve os dados tratados no formato parquet<br>
 ![Evidencia 21](../evidencias/21.png)<br>
 
 ### Configurações na AWS
