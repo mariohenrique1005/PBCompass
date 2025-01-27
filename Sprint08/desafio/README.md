@@ -21,7 +21,7 @@ Questionamentos:<br>
 
 ### Criando o código para os dados dos CSVs movies e series
 
-1. Primeiramente todos os códigos foram desenvolvidos na ambiente local (VSCode), para depois serem colocados no AWS Glue. Nesta etapa é feita a importação das bibliotecas necessárias para executar o código
+1. Primeiramente todos os códigos foram desenvolvidos na ambiente local (VSCode), para depois serem colocados no AWS Glue. Nesta etapa é feita a importação das bibliotecas necessárias para executar o código<br>
 ![Evidencia 1](../evidencias/01.png)<br>
 
 2. São definidos os parâmetros para execução correta do script, entre eles: Caminhos de entrada dos arquivos e o caminho de saída para os arquivos no formato parquet
