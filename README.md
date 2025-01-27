@@ -41,3 +41,6 @@ Na sexta sprint aprendi na prática sobre novos serviços da AWS, tais como: Lam
 
 7. [Sprint 7](Sprint07/README.md)
 Na sétima sprint aprendi mais sobre os serviços AWS, aplicando na prática os conceitos estudados. Também foi aprendido conceitos sobre Apache Spark
+
+8. [Sprint 8](Sprint08/README.md)
+Na oitava sprint aprendi mais sobre o serviço AWS Glue na prática, como utilizar o Spark para realizar consultas e inserir dados em dataframes
