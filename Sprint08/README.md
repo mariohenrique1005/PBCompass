@@ -70,16 +70,16 @@ Importação das bibliotecas necessárias para executar o código de processamen
 Parâmetros para execução correta do script, incluindo os paths
 ![Evidencia 2](evidencias/02.png)<br>
 
-Definição dos paths de entrada e saída
+Definição dos paths de entrada e saída<br>
 ![Evidencia 3](evidencias/03.png)<br>
 
 Função para limpar inconsistências no dataframe
 ![Evidencia 4](evidencias/04.png)<br>
 
-Parâmetros para ler o CSV do arquivo movies
+Parâmetros para ler o CSV do arquivo movies<br>
 ![Evidencia 5](evidencias/05.png)<br>
 
-Conversão para um dataframe do Spark
+Conversão para um dataframe do Spark<br>
 ![Evidencia 6](evidencias/06.png)<br>
 
 Contagem do número de colunas no dataframe e chamada da função
@@ -88,10 +88,10 @@ Contagem do número de colunas no dataframe e chamada da função
 Conversão do dataframe movies para dynamic dataframe
 ![Evidencia 8](evidencias/08.png)<br>
 
-Conversão de movies para o formato parquet
+Conversão de movies para o formato parquet<br>
 ![Evidencia 9](evidencias/09.png)<br>
 
-Parâmetros para ler o CSV do arquivo series
+Parâmetros para ler o CSV do arquivo series<br>
 ![Evidencia 10](evidencias/10.png)<br>
 
 Conversão para um dataframe do Spark
@@ -103,7 +103,7 @@ Contagem do número de colunas no dataframe e chamada da função
 Conversão do dataframe series para dynamic dataframe
 ![Evidencia 13](evidencias/13.png)<br>
 
-Conversão de series para o formato parquet e fim do job
+Conversão de series para o formato parquet e fim do job<br>
 ![Evidencia 14](evidencias/14.png)<br>
 
 Importação das bibliotecas necessárias para executar o código de processamento dos JSONs
@@ -112,19 +112,19 @@ Importação das bibliotecas necessárias para executar o código de processamen
 Parâmetros para execução correta do script, incluindo os paths
 ![Evidencia 16](evidencias/16.png)<br>
 
-Definição dos paths de entrada e saída
+Definição dos paths de entrada e saída<br>
 ![Evidencia 17](evidencias/17.png)<br>
 
-Parâmetros para ler os arquivos JSON
+Parâmetros para ler os arquivos JSON<br>
 ![Evidencia 18](evidencias/18.png)<br>
 
-Conversão para um dataframe do spark
+Conversão para um dataframe do spark<br>
 ![Evidencia 19](evidencias/19.png)<br>
 
-Remoção dos registros com valores duplicados e nulos
+Remoção dos registros com valores duplicados e nulos<br>
 ![Evidencia 20](evidencias/20.png)<br>
 
-Conversão para o formato parquet
+Conversão para o formato parquet<br>
 ![Evidencia 21](evidencias/21.png)<br>
 
 Configuração do IAM
