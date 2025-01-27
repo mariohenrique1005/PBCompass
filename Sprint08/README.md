@@ -94,7 +94,7 @@ Conversão de movies para o formato parquet<br>
 Parâmetros para ler o CSV do arquivo series<br>
 ![Evidencia 10](evidencias/10.png)<br>
 
-Conversão para um dataframe do Spark
+Conversão para um dataframe do Spark<br>
 ![Evidencia 11](evidencias/11.png)<br>
 
 Contagem do número de colunas no dataframe e chamada da função
