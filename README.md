@@ -44,3 +44,6 @@ Na sétima sprint aprendi mais sobre os serviços AWS, aplicando na prática os 
 
 8. [Sprint 8](Sprint08/README.md)
 Na oitava sprint aprendi mais sobre o serviço AWS Glue na prática, como utilizar o Spark para realizar consultas e inserir dados em dataframes
+
+9. [Sprint 9](Sprint09/README.md)
+Na nona sprint aprendi mais sobre o Spark, AWS Glue e AWS Glue Data Catalog e o AWS Athena, filtrando dados, unindo dados de fontes diferentes e criar modelos dimensionais para fazer consultas e futuras análises
