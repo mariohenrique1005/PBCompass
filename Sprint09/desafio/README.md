@@ -184,22 +184,21 @@ saída dos arquivos parquet. Após todas as configurações definidas, o job é 
 ![Evidencia 52](../evidencias/50.png)<br>
 
 42. Ao clicar em 'Table data' de cada tabela, como pode-se ver no print do passo 40, o Athena é aberto com uma consulta simples para exibir os dados das 2 tabelas. Abaixo encontram-se respectivamente: dim_titulo e fato_series<br>
-![Evidencia 53](../evidencias/51.png)
-![Evidencia 54](../evidencias/52.png)
+![Evidencia 53](../evidencias/51.png)<br>
+![Evidencia 54](../evidencias/52.png)<br>
 
 ## Erros e problemas
 
 Ocorreram alguns problemas na execução dos jobs no Glue por erros simples de digitação, tais como atribuições de variáveis, caminhos dos arquivos, entre outros que foram prontamente corrigidos
 
-1. Ao executar o primeiro job no Glue houve um erro de digitação no script ao nomear incorretamente a variável do dataframe que continha os filmes
-![Evidencia 55](../evidencias/Err_1.png)
+1. Ao executar o primeiro job no Glue houve um erro de digitação no script ao nomear incorretamente a variável do dataframe que continha os filmes<br>
+![Erro 01](../evidencias/Err_1.png)<br>
 
-2. Um erro foi gerado ao não definir corretamente os caminhos de entrada dos arquivos CSV e JSONs
-![Evidencia 56](../evidencias/Err_2.png)
+2. Um erro foi gerado ao não definir corretamente os caminhos de entrada dos arquivos CSV e JSONs<br>
+![Erro 02](../evidencias/Err_2.png)<br>
 
-3. Ao reexecutar um job para sobreescrever os dados que estavam incorretos no S3, um erro foi apresentado por não ter definido a política de
-exclusão de arquivos do S3 no IAM
-![Evidencia 57](../evidencias/Err_3.png)
+3. Ao reexecutar um job para sobreescrever os dados que estavam incorretos no S3, um erro foi apresentado por não ter definido a política de exclusão de arquivos do S3 no IAM<br>
+![Erro 03](../evidencias/Err_3.png)<br>
 
-4. Houve um erro de sintaxe na digitação do script para a modelagem de series, ao não colocar ',' após as colunas desejadas para o dataframe
-![Evidencia 58](../evidencias/Err_4.png)
+4. Houve um erro de sintaxe na digitação do script para a modelagem de series, ao não colocar ',' após as colunas desejadas para o dataframe<br>
+![Erro 04](../evidencias/Err_4.png)<br>
