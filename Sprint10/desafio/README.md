@@ -10,8 +10,8 @@ Para a execução da última etapa do desafio que consiste em realizar a anális
 2-Como foi a votação nos filmes ao longo do tempo?
 3-Qual foi o ano de lançamento em que as séries tiveram a maior nota média?
 4-Quais foram os 10 filmes com maior lucro e a sua arrecadação de bilheteria de 2013 a 2022?
-5-Os filmes que tem mais de 120 minutos de duração tem nota média maior que os filmes menores ou iguais a 120 minutos?
-6-Os filmes de 2013 a 2022 com mais votos tem maior orçamento?
+5-Os filmes de 2013 a 2022 com mais votos tem maior orçamento?
+6-Os filmes que tem mais de 120 minutos de duração tem nota média maior que os filmes menores ou iguais a 120 minutos?
 7-Os atores que tem mais de uma profissão possuem os filmes com nota maior do que aqueles que apenas atuam como atores? 
 8-As series com mais de 2 anos de duração possuem nota média maior que as séries que tem 2 anos ou menos de duração?
 
@@ -42,7 +42,8 @@ Para a execução da última etapa do desafio que consiste em realizar a anális
 ![Evidencia 12](../evidencias/12.png)<br>
 ![Evidencia 13](../evidencias/13.png)<br>
 
-6. Para analisar a votação por ano de lançamento dos filmes é criado um gráfico de linha<br>
+6. Para analisar a votação por ano de lançamento dos filmes é criado um gráfico de linha, juntamente com a análise de quantos filmes
+foram lançados por ano <br>
 ![Evidencia 14](../evidencias/14.png)<br>
 
 7. A análise de nota média por ano de lançamento de séries é feita através de um gráfico de barras horizontais, com a exibição dos 10 maiores valores e o maior valor em destaque<br>
@@ -84,43 +85,63 @@ Foi criado um campo calculado, a partir de outro já criado anteriormente: 'Dura
 
 ### Painel da análise
 
+Toda a análise foi feita com filmes e séries das categorias animação e comédia.<br>
+Para análise de dados como orçamento e bilheteria dos filmes foram considerados dados entre os anos de 2013 a 2022<br>
+
 13. A partir do dashboard criado na análise, foi publicado o painel para interagir com o dashboard e visualizá-lo. Aqui também é possível exportar o PDF do dashboard<br>
 ![Evidencia 30](../evidencias/30.png)<br>
 No link a seguir é possível ver o PDF do dashboard: 
 [PDF da análise](Analise.pdf)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+14. O primeiro gráfico é referente às notas médias agrupadas por ano do conjunto de filmes.
+Pode-se verificar os 10 anos com as maiores notas médias, sendo 1914 o ano em que os filmes tiveram a maior nota média
+![Evidencia 31](../evidencias/31.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+15. O segundo gráfico diz como foi a votação dos filmes ao longo dos anos, agrupando a soma dos votos por ano, além de exibir na segunda linha quantos filmes foram lançados por ano.<br>
+Observa-se um grande crescimento no número de votações a partir de 1983, com o pico em 2014 - isto provavelmente deve-se à grande quantidade de filmes lançados no período.<br>
+Em 2020 houve uma grande queda no número de filmes lançados, e consequentemente no número de votos, provavelmente devido à pandemia.<br>
+![Evidencia 32](../evidencias/32.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+16. Neste gráfico, é feita a análise das notas de avaliação por ano de lançamento das séries. Observa-se que o ano de 1930 foi o que obteve
+a maior nota média.<br>
+![Evidencia 33](../evidencias/33.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+17. Este gráfico contém os 10 filmes de maior lucro, juntamente com a arrecadação de bilheteria. "O Rei Leão" foi o filme que teve o maior lucro, porém entre estes 10 filmes não foi o mais lucrativo, dada a diferença entre lucro e bilheteria. Se considerarmos este fator, "Ne Zha" foi o mais lucrativo entre os 10 filmes com maior lucro.<br>
+![Evidencia 34](../evidencias/34.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+18. O gráfico de dispersão contém a relação entre número de votos e orçamento. Foi investigado se quanto maior o orçamento, maior é o número de votos de um filme, dada a maior visibilidade que os filmes com maior orçamento possuem.<br>
+Constatou-se que nem sempre o filme com o maior orçamento é mais popular pelo número de votos, apesar de possuir uma quantidade expressiva de votação<br>
+![Evidencia 35](../evidencias/35.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+19. Neste gráfico mais simples é feita a comparação de avaliação entre os filmes que possuem até 120 minutos de duração e os que tem mais de 120 minutos. Verifica-se que por uma ligeira margem, os que possuem mais de 120 minutos de duração são mais bem avaliados<br>
+![Evidencia 36](../evidencias/36.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+20. Neste outro gráfico é feita a comparação de avaliação dos filmes com artistas que apenas atuam como atores ou os que possuem mais de uma função, como: diretor, escritor, etc. Por uma diferença ínfima, os que possuem mais de um profissão tem filmes melhor avaliados, mas podemos considerar até mesmo nula essa diferença, empatando com os que possuem apenas uma profissão.<br>
+![Evidencia 37](../evidencias/37.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+21. No último gráfico é feita outra comparação entre as séries que possuem mais de 2 anos de duração e as que possuem 2 anos ou menos.<br>
+As que possuem mais de 2 anos de duração possuem notas de avaliação melhores, ou seja, séries mais longas são melhores avaliadas por pouca diferença<br>
+![Evidencia 38](../evidencias/38.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+### Interação com os gráficos
 
-![Evidencia ](../evidencias/.png)<br>
+22. Passando o mouse sobre a linha do gráfico é possivel verificar que a partir de 1983 o número de votos anuais para os filmes passa a crescer<br>
+![Evidencia 39](../evidencias/39.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+23. Selecionando no controle deslizante 5 milhões de votos, acima do primeiro gráfico de barras, é possível ver a mudança nas avaliações por ano.<br>
+5 milhões de votos anuais já é um valor considerável e muda completamente o panorama dos anos mais bem avaliados para filmes<br>
+![Evidencia 40](../evidencias/41.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+24. Selecionando o ano de 2022 é possível verificar que o gráfico ao lado muda para exibir quantos votos este ano teve e quantos filmes foram lançados<br>
+![Evidencia 41](../evidencias/41.png)<br>
 
-![Evidencia ](../evidencias/.png)<br>
+25. Ao selecionar o filme com o maior lucro é possível ver no gráfico de dispersão abaixo deste o seu orçamento e quantos votos possui<br>
+Qualquer filme do gráfico de barras pode ser selecionado para ver mais informações sobre orçamento e quantidade de votos recebidos<br>
+![Evidencia 42](../evidencias/42.png)<br>
+![Evidencia 43](../evidencias/43.png)<br>
 
 ## Erros e problemas
 
-1. 
-
-
-2. 
-![Erro 01](../evidencias/.png)
-
-![Evidencia 15](../evidencias/15.png)
+1. Para evitar a duplicação de dados na tabela fato, foi necessário refazer a modelagem dimensional da sprint 9. Por consequência o código para fazer o ETL no Glue também foi alterado:<br>
+[Código reformulado](../../Sprint09/desafio/Script_modelagem-filmes-atual.py)
+![Erro 01](../evidencias/modelagem.png)<br>
