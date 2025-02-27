@@ -1,19 +1,22 @@
 # Desafio
-Para a execução da última etapa do desafio que consiste em realizar a análise de dados foi utilizado o Quicksight da AWS, com dados originados do catálogo de dados do Glue.
+Para a execução da última etapa do desafio que consiste em realizar a análise de dados foi utilizado o Quicksight da AWS, com dados originados do catálogo de dados do Glue.<br>
+Primeiramente foi construída uma análise no Quicksight, contendo gráficos e textos para ilustração e depois inseridos gráficos com os dados para análise. Concluída esta etapa, o painel foi publicado para visualização da análise e interação com os dados fornecidos.<br>
+Com o painel concluído é possível exportar um PDF para ver o dashboard ou compartilhar este com usuários definidos.<br>
 
 ## Etapas
 
 ### Tema e questões respondidas
+
 **Análise de métricas dos filmes e séries e o impacto destas nas notas de avaliação e arrecadação de bilheteria**
 
-1-Qual foi o ano de lançamento em que os filmes tiveram a maior nota média?
-2-Como foi a votação nos filmes ao longo do tempo?
-3-Qual foi o ano de lançamento em que as séries tiveram a maior nota média?
-4-Quais foram os 10 filmes com maior lucro e a sua arrecadação de bilheteria de 2013 a 2022?
-5-Os filmes de 2013 a 2022 com mais votos tem maior orçamento?
-6-Os filmes que tem mais de 120 minutos de duração tem nota média maior que os filmes menores ou iguais a 120 minutos?
-7-Os atores que tem mais de uma profissão possuem os filmes com nota maior do que aqueles que apenas atuam como atores? 
-8-As series com mais de 2 anos de duração possuem nota média maior que as séries que tem 2 anos ou menos de duração?
+1-Qual foi o ano de lançamento em que os filmes tiveram a maior nota média?<br>
+2-Como foi a votação nos filmes ao longo do tempo?<br>
+3-Qual foi o ano de lançamento em que as séries tiveram a maior nota média?<br>
+4-Quais foram os 10 filmes com maior lucro e a sua arrecadação de bilheteria de 2013 a 2022?<br>
+5-Os filmes de 2013 a 2022 com mais votos tem maior orçamento?<br>
+6-Os filmes que tem mais de 120 minutos de duração tem nota média maior que os filmes menores ou iguais a 120 minutos?<br>
+7-Os atores que tem mais de uma profissão possuem os filmes com nota maior do que aqueles que apenas atuam como atores?<br>
+8-As series com mais de 2 anos de duração possuem nota média maior que as séries que tem 2 anos ou menos de duração?<br>
 
 ### Configuração do conjunto de dados no Quicksight
 
