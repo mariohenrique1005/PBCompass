@@ -15,7 +15,7 @@ Para realizar o desafio, foram visualizados tutoriais da AWS e cursos fornecidos
 
 ## Evidências
 
-[Arquivos do Desafio](desafio/)
+[Arquivos do Desafio](desafio/)<br>
 [Análise em PDF](desafio/Analise.pdf)
 
 ### Configuração do conjunto de dados no Quicksight

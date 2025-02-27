@@ -47,3 +47,6 @@ Na oitava sprint aprendi mais sobre o serviço AWS Glue na prática, como utiliz
 
 9. [Sprint 9](Sprint09/README.md)
 Na nona sprint aprendi mais sobre o Spark, AWS Glue e AWS Glue Data Catalog e o AWS Athena, filtrando dados, unindo dados de fontes diferentes e criar modelos dimensionais para fazer consultas e futuras análises
+
+10. [Sprint 10](Sprint10/README.md)
+Na última sprint aprendi como criar um dashboard com o AWS Quicksight, inserindo gráficos, configurando-os para fazer análises detalhadas e interativas
