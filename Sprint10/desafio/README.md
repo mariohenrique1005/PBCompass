@@ -146,5 +146,5 @@ Qualquer filme do gráfico de barras pode ser selecionado para ver mais informa�
 ## Erros e problemas
 
 1. Para evitar a duplicação de dados na tabela fato, foi necessário refazer a modelagem dimensional da sprint 9. Por consequência o código para fazer o ETL no Glue também foi alterado:<br>
-[Código reformulado](../../Sprint09/desafio/Script_modelagem-filmes-atual.py)
+[Código reformulado](../../Sprint09/desafio/Script_modelagem-filmes-atual.py)<br>
 ![Erro 01](../evidencias/modelagem.png)<br>
